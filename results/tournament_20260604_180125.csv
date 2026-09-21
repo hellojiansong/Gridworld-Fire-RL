@@ -1,0 +1,16 @@
+agent1,agent2,games,agent1_wins,agent2_wins,draws,agent1_winrate,agent2_winrate,draw_rate,avg_turns,avg_turns_on_win,avg_turns_on_loss,avg_turns_on_draw,avg_win_margin,avg_hits_landed,avg_hits_taken
+ppo_agent_a_offensive_better_actor.pt,ppo_agent_a_luuk.pt,1000,253,736,11,25.3,73.6,1.1,66.0,68.8,65.2,59.6,2.62,0.0,1.99
+ppo_agent_a_offensive_better_actor.pt,ppo_agent_b_territorial.pt,1000,526,454,20,52.6,45.4,2.0,52.0,50.4,53.8,54.3,2.54,0.0,1.4
+ppo_agent_a_offensive_better_actor.pt,ppo_agent_b_defensive_Grid_full_sep.pt,1000,469,502,29,46.9,50.2,2.9,53.2,49.5,57.0,47.1,2.59,0.0,1.56
+ppo_agent_a_offensive_better_actor.pt,random,1000,969,26,5,96.9,2.6,0.5,11.9,11.9,11.1,20.8,2.93,0.0,0.13
+ppo_agent_a_offensive_better_actor.pt,heuristic,1000,35,926,39,3.5,92.6,3.9,67.0,92.1,66.5,56.4,2.03,0.0,2.61
+ppo_agent_a_luuk.pt,ppo_agent_b_territorial.pt,1000,805,177,18,80.5,17.7,1.8,63.6,60.9,75.6,65.8,2.64,0.0,0.71
+ppo_agent_a_luuk.pt,ppo_agent_b_defensive_Grid_full_sep.pt,1000,754,229,17,75.4,22.9,1.7,67.5,64.6,76.9,69.1,2.59,0.0,0.87
+ppo_agent_a_luuk.pt,random,1000,996,3,1,99.6,0.3,0.1,11.9,11.9,11.7,22.0,2.97,0.0,0.02
+ppo_agent_a_luuk.pt,heuristic,1000,157,768,75,15.7,76.8,7.5,103.6,114.1,103.9,78.8,2.02,0.0,2.39
+ppo_agent_b_territorial.pt,ppo_agent_b_defensive_Grid_full_sep.pt,1000,406,559,35,40.6,55.9,3.5,47.9,48.4,47.4,50.3,2.41,0.0,1.72
+ppo_agent_b_territorial.pt,random,1000,958,37,5,95.8,3.7,0.5,11.4,11.4,10.8,12.6,2.9,0.0,0.17
+ppo_agent_b_territorial.pt,heuristic,1000,50,874,76,5.0,87.4,7.6,61.1,90.5,60.9,43.9,1.9,0.0,2.51
+ppo_agent_b_defensive_Grid_full_sep.pt,random,1000,926,67,7,92.6,6.7,0.7,11.4,11.7,7.0,8.1,2.91,0.0,0.27
+ppo_agent_b_defensive_Grid_full_sep.pt,heuristic,1000,49,808,143,4.9,80.8,14.3,61.7,85.6,63.7,42.1,1.69,0.0,2.62
+random,heuristic,1000,0,1000,0,0.0,100.0,0.0,12.5,,12.5,,,0.0,2.91
