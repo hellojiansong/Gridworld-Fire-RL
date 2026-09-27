@@ -1,5 +1,12 @@
 # GridWorld Fire Game
 
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?style=flat&logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![MARL](https://img.shields.io/badge/Environment-Multi--Agent%20GridWorld-blue?style=flat)](#)
+[![Algorithms](https://img.shields.io/badge/Algorithms-PPO%20%7C%20A2C-brightgreen?style=flat)](#)
+[![Explainability](https://img.shields.io/badge/XAI-Grad--CAM-purple?style=flat)](#)
+[![Self-Play](https://img.shields.io/badge/Training-Self--Play-orange?style=flat)](#)
+
 A two-player simultaneous grid-world environment where players move across procedurally generated terrain, leave fire trails, collect boosters, and try to outlive their opponent. The environment is built for reinforcement learning experiments and supports human play, agent vs. agent, and evaluation tooling.
 
 ## Game mechanics
