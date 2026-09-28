@@ -22,7 +22,7 @@ A two-player simultaneous grid-world environment where players move across proce
 ## Installation
 
 ```bash
-pip install numpy torch matplotlib trueskill tqdm
+pip install numpy torch matplotlib trueskill tqdm pygame
 ```
 
 ## Project structure
